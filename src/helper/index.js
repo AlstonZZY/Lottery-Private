@@ -41,7 +41,7 @@ export function conversionCategoryName(key) {
   let name = '';
   switch (key) {
     case 'firstPrize':
-      name = '八等獎：百搜禮卡一張';
+      name = '十等獎：HMart $100現金禮券';
       break;
     default:
       break;
