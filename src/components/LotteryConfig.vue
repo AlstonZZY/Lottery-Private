@@ -31,7 +31,7 @@
             :step="1"
           ></el-input>
         </el-form-item>
-        <el-form-item label="八等獎：百搜禮卡一張">
+        <el-form-item label="十等獎：HMart $100現金禮券">
           <el-input
             type="number"
             v-model="form.firstPrize"
