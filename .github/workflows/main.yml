@@ -27,7 +27,7 @@ jobs:
           cache: "yarn"
 
       - name: Install deps
-        run: npm ci
+        run: npm install
 
       - name: Build
         env:
