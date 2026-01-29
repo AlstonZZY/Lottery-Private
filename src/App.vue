@@ -466,7 +466,7 @@ export default {
   }
   .itemres {
     background: #fff;
-    width: 160px;
+    width: 460px;
     height: 160px;
     border-radius: 4px;
     border: 1px solid #ccc;
