@@ -26,13 +26,13 @@ jobs:
           node-version: "16"
           cache: "yarn"
 
-      - name: Install deps (yarn)
-        run: yarn install --frozen-lockfile
+      - name: Install deps
+        run: npm ci
 
       - name: Build
         env:
           NODE_OPTIONS: --openssl-legacy-provider
-        run: yarn build
+        run: npm run build
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
